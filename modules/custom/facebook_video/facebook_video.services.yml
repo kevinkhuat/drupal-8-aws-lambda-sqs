@@ -1,0 +1,4 @@
+services:
+  facebook_video.default:
+    class: Drupal\facebook_video\Utility\FacebookVideoService
+    arguments: ['video']
